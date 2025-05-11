@@ -85,7 +85,7 @@
           <picture>
             <source class="herobanner" srcset="./assets/images/hero-banner.png" media="(min-width: 768px)" width="100">
             <source class="herobanner" srcset="./assets/images/hero-banner.png" media="(min-width: 500px)" width="100">
-            <img src="./assets/images/hero-banner.png" class="w-100" width="100">
+            <img src="./assets/images/hero-banner.png" class="w-100 banner-hero">
           </picture>
 
         </figure>
@@ -180,7 +180,7 @@
 
         <figure class="about-banner">
           <img src="./assets/images/hero-banner.png" alt="A man in a alice blue shirt with a thinking expression"
-            class="w-100">
+            class="w-100 banner-hero2">
         </figure>
 
         <div class="about-content section-content">
@@ -301,6 +301,16 @@
 
             <li>
               <div class="skill-card">
+                <div class="tooltip">Next</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/Skills/nextjs.png" alt="Next logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
                 <div class="tooltip">Vue</div>
 
                 <div class="card-icon">
@@ -396,6 +406,7 @@
 
         <ul class="project-list">
 
+
           <li>
             <div class="project-content section-content">
 
@@ -458,6 +469,7 @@
             </a>
           </li>
 
+
           <li>
             <a href="https://tudolink.com.br/" class="project-card">
 
@@ -486,6 +498,22 @@
                 <h3 class="h4 card-title">Site de E-commerce</h3>
 
                 <time class="publish-date" datetime="2022-04">Novembro 2019</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://pet-dev12.vercel.app/" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/img-projetos/Projeto-pet.png" class="w-100" alt="Pet-Shop">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">PetShop</h3>
+
+                <time class="publish-date" datetime="2022-04">Maio 2025</time>
               </div>
 
             </a>
@@ -587,7 +615,7 @@
               <ion-icon name="person-circle"></ion-icon>
             </div>
           </div>
-        
+
           <div class="form-wrapper">
             <label for="email" class="form-label">Email</label>
             <div class="input-wrapper">
@@ -595,7 +623,7 @@
               <ion-icon name="mail"></ion-icon>
             </div>
           </div>
-        
+
           <div class="form-wrapper">
             <label for="phone" class="form-label">Telefone</label>
             <div class="input-wrapper">
@@ -603,19 +631,20 @@
               <ion-icon name="call"></ion-icon>
             </div>
           </div>
-        
+
           <div class="form-wrapper">
             <label for="message" class="form-label">Mensagem</label>
             <div class="input-wrapper">
-              <textarea name="message" id="message" required placeholder="Sua mensagem..." class="input-field"></textarea>
+              <textarea name="message" id="message" required placeholder="Sua mensagem..."
+                class="input-field"></textarea>
               <ion-icon name="chatbubbles"></ion-icon>
             </div>
           </div>
-          <input type="hidden" name="_next" value="https://schran12.github.io/site-schran/obrigado">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
           <button type="submit" class="btn btn-primary">Enviar</button>
           <input type="hidden" name="_captcha" value="false">
         </form>
-        
+
       </section>
 
     </article>
