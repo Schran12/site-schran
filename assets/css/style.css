@@ -240,6 +240,11 @@ body.active { overflow: hidden; }
   box-shadow: var(--shadow-1);
 }
 
+.banner-hero{
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -1132,10 +1137,6 @@ textarea.input-field {
 
 }
 
-.w-100 {
-  border-radius: 20px;
-  margin-top: 50px;
-}
 
 /* Responsivo para telas pequenas PÁGINA OBRIGADO */
 @media (max-width: 500px) {
